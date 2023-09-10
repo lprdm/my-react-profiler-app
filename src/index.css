@@ -1,0 +1,135 @@
+body {
+  background-color: #edeef1;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.contend {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.contend button {
+  background: #000;
+  font-family: Work Sans, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 20px 40px;
+  font-weight: 600;
+  border-radius: 35px;;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
+
+.contend button:hover {
+  background: #000;
+  text-decoration: none;
+}
+
+.success-message {
+  width: 50%;
+  margin: 0px auto;
+  padding: 5px 10px;
+  background-color: #d4d4d4;
+  font-weight: 600;
+}
+
+.question-title {
+  font-family: Mabry-Regular, sans-serif;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 42px;
+  color: #000;
+  font-weight: 400;
+}
+
+.answer-value {
+  font-family: Work Sans, sans-serif;
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+}
+
+.answer-description {
+
+  font-size: 14px;
+  color: #000;
+}
+
+.answer-options {
+  display: block;
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #FFF;
+}
+
+.answer-label {
+  width: auto;
+}
+
+.answer-text {
+  display: inline-block;
+  padding-left: 10px;
+  right: 0;
+  width: 90%;
+}
+
+.answer-radio {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.question-box {
+  width: 70%;
+  margin: 0px auto 20px auto;
+  padding: 5px 10px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.banner-image {
+  z-index: -1;
+}
+
+.banner-image img {
+  border-radius: 3% 3% 0% 0%;
+  position: relative;
+}
+
+.banner-image p {
+  font-size: 13px ;
+}
+
+.banner-description {
+  width: 300px;
+  background-color: #000;
+  /*opacity: 0.8;*/
+  left: 50%;
+  color: #FFF;
+  transform: translate(-50%, -50%);
+  /*box-shadow: 1px 1px 15px grey;*/
+  position: relative;
+  border-radius: 0% 0% 3% 3%;
+}
+
+.banner-description h3 {
+  margin: none !important;
+}
+
+.banner-button{
+  background: none !important;
+  font-size: 16px !important;
+}
