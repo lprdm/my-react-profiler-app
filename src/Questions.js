@@ -53,15 +53,14 @@ function Questions() {
 
           <div className="question-box">
             <div className="question-title">
-              <p>{questionData.value}</p>
+              <p>{questionData.question_number}. {questionData.value}</p>
             </div>
 
-
             {questionData.choice_answers.map((item, index) => (
-              <div className='answer-options'>
+              <div className='answer-options' key={index}>
                 <label className='answer-label'>
                   <div className='answer-radio'>
-                    <input type='radio' class='' id='{index}' /> 
+                    <input type='radio' id='{index}' /> 
                   </div>
                   <div className='answer-text'>
                     <span className='answer-value'> {item.value}</span><br />
